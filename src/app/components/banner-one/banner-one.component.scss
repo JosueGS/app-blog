@@ -1,0 +1,20 @@
+@import '../../../styles/abstracts/all';
+.bk_banner_one{
+  background-color: #fece47;
+  background-image: url(http://droitthemes.com/wp/mak/wp-content/uploads/2018/10/hire_bg.png);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding:146px 0;
+}
+.content_description{
+  h4{
+    color: $white;
+    margin-bottom: 35px;
+  }
+  button{
+    border-radius: 6px;
+    background-color: $white;
+    color: $color-prim;
+    font-size: 20px;
+    padding: 18px 50px;
+  }
+}
