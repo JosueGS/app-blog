@@ -1,0 +1,29 @@
+@import '../../../styles/abstracts/all';
+
+.bk-about{
+  padding: 70px 0;
+}
+.content_about{
+  @include max-width;
+  display: grid;
+  grid-template-columns: 38% 60%;
+  align-items: center;
+  // gap: 20px;
+}
+.item_atwo{
+  line-height: $theight1_8;
+  p{
+    margin-bottom: 30px;
+  }
+}
+.btn_about{
+  @include btn-one;
+  padding: 18px 40px;
+  font-size: 18px;
+  margin-right: 20px;
+}
+.btn_about2{
+  @include btn-two;
+  padding: 18px 40px;
+  font-size: 18px;
+}

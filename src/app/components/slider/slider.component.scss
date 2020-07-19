@@ -1,0 +1,42 @@
+@import '../../../styles/abstracts/all';
+.bk-portada{
+  background-color: $white-two;
+  height: 735px;
+  width: 100%;
+}
+
+.item_portada{
+  @include max-width;
+  display: grid;
+  grid-template-columns: 41% 57%;
+  gap: 20px;
+  align-items: center;
+}
+
+.content-title{
+  h2{
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 25px;
+  }
+  p{
+    color: $gray-three;
+    font-size: 23px;
+    margin-bottom: 45px;
+    line-height: 1.4;
+    width: 360px;
+  }
+}
+
+.btn_portada{
+  @include btn-one;
+  font-size: 25px;
+  padding: $btn-padd;
+  &:hover{
+    
+  }
+
+}
+.portada_img{
+  align-self: end;
+}

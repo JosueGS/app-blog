@@ -1,0 +1,26 @@
+@import '../../../styles/abstracts/all';
+
+
+.bk-header{
+  background-color: $white;
+  position: sticky;
+  top: 0;
+  z-index: $zindex-100;
+}
+.bk_desktop{
+  @include max-width;
+  padding: 15px 0; 
+}
+.logo_desktop{ 
+  color: $color-prim;
+  font-size: 50px;
+  font-weight: 700;
+}
+.desktop_bklinks{
+  flex-basis: 50%;
+  a{
+    color: $black-two;
+    font-weight: 500;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,60 @@
+/*==== CLASS FLEXBOX ====== */
+.flex-center,.flex-centerv,.flex-between,.content-title-sub{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-between{
+  justify-content: space-between;
+}
+.flex-centerv,.content-title-sub{
+  flex-direction: column;
+}
+
+.grid-one{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 20px;
+  align-items: center;
+}
+
+/*titles*/
+.title-style{
+  color: $black-three;
+  font-size: $title-fzise1;
+  font-weight: $fweight700;
+}
+
+/*subtitle-description*/
+.paragraph-sub {
+  line-height: $theight1_7;
+  text-align: center;
+  width: 78%;
+  max-width: 920px;
+  margin-bottom: 50px;
+}
+
+.content-title-sub{
+
+  h2{
+    margin-bottom:$margin-sone;
+  }
+}
+
+/* layout */
+.view-maxwidth{
+  max-width:$mxwidth-desktop;
+  width: $width-desktop;
+  margin: $view-margin;
+  height: 100%;
+}
+
+// -*-*-*-*-*-*-* ANIMATION CLASSES -*-*-*-*-*-*-*
+.animation--fade-in {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+.animation--fade-out {
+  animation-name: fadeOut;
+  animation-duration: 2s;
+}

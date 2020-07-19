@@ -13,6 +13,8 @@ import { BannerOneComponent } from './components/banner-one/banner-one.component
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CjServicesComponent } from './components/cj-services/cj-services.component';
+import { ItemLworksComponent } from './components/item-lworks/item-lworks.component';
+import { ItemWorkExpComponent } from './components/item-work-exp/item-work-exp.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { CjServicesComponent } from './components/cj-services/cj-services.compon
     BannerOneComponent,
     ContactComponent,
     FooterComponent,
-    CjServicesComponent
+    CjServicesComponent,
+    ItemLworksComponent,
+    ItemWorkExpComponent
   ],
   imports: [
     BrowserModule,

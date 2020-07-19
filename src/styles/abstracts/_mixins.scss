@@ -1,5 +1,33 @@
-@import './variables';
 
-@mixin btn-primary{
-  border: $btn-border;
+@mixin btn-one{
+  color: $white;
+  background-color: $color-prim;
+  border-radius: 5px;
+  vertical-align: middle;
+  border:$btn-border;
+}
+@mixin btn-two{
+  color: $color-prim;
+  background-color: $white;
+  border:$btn-border;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+@mixin font-family {
+  font-family: $font-poppins;
+}
+
+@mixin max-width {
+  max-width:$mxwidth-desktop;
+  width: $width-desktop;
+  margin: $view-margin;
+  height: 100%;
+}
+@mixin paragraph-sub {
+  line-height: $theight1_7;
+  text-align: center;
+  width: 70%;
+  max-width: 700px;
+  margin-bottom: 50px;
 }

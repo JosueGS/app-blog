@@ -1,0 +1,14 @@
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+
+body{
+  font-size: $size-letter;
+  color: $gray;
+  line-height: $theight1_2;
+  @include font-family;
+  font-weight: $fweight400;
+}
+
+
+
