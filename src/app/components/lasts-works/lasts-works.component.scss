@@ -8,3 +8,8 @@
     margin-bottom: 55px;
   }
 }
+.title-style{
+  &::before{
+    width: 41%;
+  }
+}

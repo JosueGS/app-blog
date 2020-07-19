@@ -10,6 +10,12 @@
   align-items: center;
   // gap: 20px;
 }
+.title-style{
+  display: block;
+  &::before{
+    width:33% ;
+  }
+}
 .item_atwo{
   line-height: $theight1_8;
   p{
@@ -19,11 +25,23 @@
 .btn_about{
   @include btn-one;
   padding: 18px 40px;
-  font-size: 18px;
+  font-size: 16px;
   margin-right: 20px;
+  cursor: pointer;
+  &:hover{
+    background-color: $white;
+    transition: all 0.3s;
+    color: $color-prim;
+  }
 }
 .btn_about2{
   @include btn-two;
   padding: 18px 40px;
-  font-size: 18px;
+  font-size: 16px;
+  cursor: pointer;
+  &:hover{
+    color: $white;
+    background-color: $color-prim;
+    transition: all 0.3s;
+  }
 }

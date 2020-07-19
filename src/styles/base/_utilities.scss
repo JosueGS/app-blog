@@ -23,6 +23,19 @@
   color: $black-three;
   font-size: $title-fzise1;
   font-weight: $fweight700;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &::before{
+    content: "";
+    position: absolute;
+    bottom: -21px;
+    height: 4px;
+    background-color: $color-prim;
+    width: 68%;
+    margin: 0 auto;
+  }
 }
 
 /*subtitle-description*/

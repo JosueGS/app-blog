@@ -32,8 +32,12 @@
   @include btn-one;
   font-size: 25px;
   padding: $btn-padd;
+  cursor: pointer;
+  transition: all 0.3s;
   &:hover{
-    
+    border: 2px solid $color-prim;
+    background-color: $white;
+    color: $color-prim;
   }
 
 }

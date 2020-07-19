@@ -6,15 +6,18 @@
   padding:146px 0;
 }
 .content_description{
-  h4{
-    color: $white;
-    margin-bottom: 35px;
-  }
   button{
     border-radius: 6px;
     background-color: $white;
     color: $color-prim;
     font-size: 20px;
     padding: 18px 50px;
+  }
+}
+.title-style{
+  color: $white;
+  margin-bottom: 35px;
+  &::before{
+    display: none;
   }
 }

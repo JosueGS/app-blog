@@ -4,3 +4,9 @@
   padding: $padd_section;
   background-color:$white-two;
 }
+.title-style{
+  &::before{
+    width: 45%;
+  }
+  
+}
